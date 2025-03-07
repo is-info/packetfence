@@ -178,6 +178,8 @@ func (s *Server) handleWebsocket(w http.ResponseWriter, req *http.Request) {
 
 	localSecret := pfconfigdriver.LocalSecret{}
 	pfconfigdriver.FetchDecodeSocket(req.Context(), &localSecret)
+
+	//
 	//successfuly validated config!
 	r.Reply(true, nil)
 	//tunnel per ssh connection
