@@ -22,6 +22,8 @@ export {
   BaseFormGroupIntervalUnit           as FormGroupDeleteWindow,
   BaseFormGroupInput                  as FormGroupDescription,
   BaseFormGroupSwitch                 as FormGroupFilterEvents,
+  BaseFormGroupSwitch                 as FormGroupFingerprint,
+  BaseFormGroupInput                  as FormGroupFingerprintNetworks,
   BaseFormGroupInput                  as FormGroupGroupId,
   BaseFormGroupSwitch                 as FormGroupHeuristics,
   BaseFormGroupInputNumber            as FormGroupHistoryBatch,
